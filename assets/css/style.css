@@ -29,12 +29,14 @@ body {
     background-size: cover;
     background-position: center top;
     opacity: 0.8;
-    font-weight: bold;
-    font-size: 30px;
     text-align: center;
-    min-height: 100vh;
+    min-height: 80vh;
     padding-top: 10%;
     width: 100%;
+}
+.top-message p {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .fadein {
@@ -61,19 +63,19 @@ section
 .bar-name {
     /* margin: 20px 35% 40%; */
     display: flex;
-    width: 100px;
-    margin: 0 auto 0 20px;
+    width: 400px;
+    margin: 0 auto;
 }
 .bar-name-img01 {
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 100px;
+    width: 25%;
     height: 100px;
 }
 .bar-name-img02 {
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 200px;
+    width: 75%;
     height: 100px;
 }
 /* .section-headline {
@@ -121,7 +123,6 @@ section
     text-align: left;
     padding-left: 20px;
     font-size: 24px;
-    
 }
 /* 
 mama
@@ -323,8 +324,8 @@ button
 footer
 */
 .footer {
-    background-color: #333;
-    color: #ffead9;
+    background-color: #ffead9;
+    /* color: #ffead9; */
 }
 .footer-map {
     margin: 0;
@@ -335,7 +336,8 @@ footer
 
 }
 .footer-map > iframe {
-    width: 60%;
+    padding-left: 20%;
+    width: 40%;
 }
 .footer-mapinfo {
     width: 40%;
@@ -348,7 +350,7 @@ footer
     font-style: normal;
 }
 .footer-mapaddress > a {
-    color: #ffead9;
+    /* color: #ffead9; */
 }
 /* .footer-line {} */
 /* .footer-copy {} */
@@ -397,6 +399,60 @@ picture-anime
     }
     .footer-map > iframe {
         width: 100%;
+        padding: 0;
     }
-
+    .footer-mapinfo {
+        width: 100%;
+        padding: 25px;
+    }
+    .img-grid {
+        width: 500px;
+        margin: 0 auto;
+        display: grid;
+        /* place-items: center; */
+        gap: 40px;
+        grid-template-columns:1fr;
+        margin-top: 6%;
+        margin-bottom: 50px;
+    }
+    .img-item {
+        width: 300px;
+        height: 300px;
+    }
+    .img-item img {
+        width: 100%;
+        height: 100%;
+    }
+    .top-message p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .explanation01 {
+         border: 2px solid #999; 
+        width: 400px;
+        height: 200px;
+        height: 100%;
+        margin: 100px auto 100px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+    .explanation01 p {
+        
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .explanation02 {
+         border: 2px solid #999; 
+        width: 400px;
+        height: 200px;
+        height: 100%;
+        margin: 100px auto 100px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+    .explanation02 p {
+        
+        padding-left: 20px;
+        font-size: 16px;
+    }
 }
