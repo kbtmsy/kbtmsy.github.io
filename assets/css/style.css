@@ -11,7 +11,7 @@ header {
 Base style
 */
 body {
-    font-family:'Noto Sans JP',  'Arial', 'century',  "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-family:"ヒラギノ角ゴ Pro W3", 'Noto Sans JP',  'Arial', 'century',  "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
     font-size: 15px;
     line-height: 1.5;
     color: #333;
@@ -85,14 +85,14 @@ section
     margin: 50px 40px;
 } */
 .snack-explanation {
-    margin-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 300px;
+    padding-bottom: 300px;
 }
 .explanation-title {
-    display: inline-block;
+    /* display: inline-block; */
     background-color: #ffead9;
     font-size: 30px;
-    margin-left: 20%;
+    text-align: center;
 }
 /* .explanation {
    display: flex;
@@ -123,6 +123,14 @@ section
     text-align: left;
     padding-left: 20px;
     font-size: 24px;
+}
+
+/*  
+menu
+*/
+.menu {
+    background-color: #ffead9;
+    padding-bottom: 100px;
 }
 /* 
 mama
@@ -402,11 +410,16 @@ picture-anime
         padding: 0;
     }
     .footer-mapinfo {
+        font-size: 16px;
         width: 100%;
-        padding: 25px;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-maplogo {
+        font-size: 16px;
     }
     .img-grid {
-        width: 500px;
+        width: 300px;
         margin: 0 auto;
         display: grid;
         /* place-items: center; */
@@ -416,8 +429,8 @@ picture-anime
         margin-bottom: 50px;
     }
     .img-item {
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
     }
     .img-item img {
         width: 100%;
@@ -454,5 +467,13 @@ picture-anime
         
         padding-left: 20px;
         font-size: 16px;
+    }
+    .mama-content {
+        display: block;
+        margin:0 auto;
+        text-align: center;
+    } 
+    .mama-img {
+        margin: 0 auto;
     }
 }
